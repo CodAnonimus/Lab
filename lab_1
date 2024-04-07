@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, obem, ploshcha;
+
+    printf("Введіть довжину ребра a: ");
+    scanf("%d", &a);
+    printf("Введіть довжину ребра b: ");
+    scanf("%d", &b);
+    printf("Введіть довжину ребра c: ");
+    scanf("%d", &c);
+
+    obem = a * b * c;
+    ploshcha = 2 * (a * b + b * c + a * c);
+
+    printf("Об'єм прямокутного паралелепіпеда: %d\n", obem);
+    printf("Площа поверхні прямокутного паралелепіпеда: %d\n", ploshcha);
+
+    return 0;
+}
